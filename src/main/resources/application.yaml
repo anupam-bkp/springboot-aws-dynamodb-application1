@@ -1,3 +1,11 @@
 spring:
   application:
     name: springboot-aws-dynamodb-application1
+
+cloud:
+  aws:
+    region:
+      static: ap-south-2
+    credentials:
+      access-key:
+      secret-access-key:
